@@ -1,0 +1,19 @@
+{
+  "name": "document-generator",
+  "version": "0.2.0",
+  "description": "Pdf generator powered by PhantomJS",
+  "author": "Christophe Fajardo",
+  "main": "generate.js",
+  "scripts": {
+    "start": "./node_modules/.bin/gulp"
+  },
+  "devDependencies": {
+    "async": "^2.0.1",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-cli": "^1.2.2",
+    "gulp-pug2": "0.0.1",
+    "gulp-run": "^1.7.1",
+    "phantomjs-prebuilt": "^2.1.7"
+  }
+}

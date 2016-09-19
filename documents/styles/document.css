@@ -1,0 +1,11 @@
+@media print {
+    html,
+    body {
+        height: 100%;
+    }
+
+    body {
+        zoom: 0.75;
+    }
+}
+

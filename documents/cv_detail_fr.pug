@@ -1,0 +1,336 @@
+doctype html
+html
+  head
+    title CV - Christophe Fajardo
+    meta(charset='UTF-8')
+    link(rel='stylesheet', href='https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.css')
+    link(href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css', rel='stylesheet', integrity='sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1', crossorigin='anonymous')
+    link(rel='stylesheet', href='styles/document.css')
+    script(src='https://code.jquery.com/jquery-3.1.0.min.js')
+    script(src='https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.js')
+  body
+    h1.ui.header(style='background:linear-gradient(to bottom right, red, orange);color:white;padding-left:10px;padding-top:15px')
+      img.ui.segment.small.image(src='images/Portrait.png', style='background:white;')
+      .content
+        strong Christophe Fajardo
+        .sub.header C# Lead developer
+    .ui.grid
+      .ui.five.wide.column.inverted(style='background:#2E2E2E;margin-left:10px;color:white')
+        .ui.orange.dividing.header
+          .content Contact
+        p
+          strong Christophe Fajardo
+          br
+          |  9 Avenue du docteur Pramayon
+          br
+          |  Villa 5 - Clos de la Marjolaine
+          br
+          |  13690 Graveson
+          br
+          abbr(title='Téléphone') Tél
+          |  : +33 (0)6 79 12 65 48
+          br
+          |  Email : 
+          a(href='mailto:fajardo.christophe@gmail.com') fajardo.christophe@gmail.com
+          br
+          |  Twitter : 
+          a(href='https://twitter.com/fajard_c') @fajard_c
+          br
+          |  GitHub : 
+          a(href='https://github.com/cfajardo') github.com/cfajardo
+        .ui.orange.dividing.header
+          .content Informations
+        p
+          | Date de naissance : 24 mai 1980
+          br
+          |  Nationalité : Française
+          br
+          |  État Civil : Marié
+          br
+          |  Permis de conduire : Permis B
+        .ui.orange.dividing.header
+          .content Langues
+        p Français, Anglais technique
+        .ui.orange.dividing.header
+          .content Loisir
+        p Sport, nouvelles technologies, développement.
+      .ten.wide.column(style='background:white')
+        .ui.orange.dividing.header
+          .content
+            i.tag.icon
+            |  Profil
+        .ui.raised.segment
+          p
+            | Autonome, passionné et aimant les défis techniques. Je suis force de proposition dans une équipe. J'aime utiliser mon environnement de travail pour optimiser et automatiser au maximum mon travail. J'aime partager mes découvertes et mes connaissances.
+          p
+            | J'aime faire de la veille technologique sur mon temps libre. Actuellement je travaille sur un émulateur Gameboy écrit en Go/OpenGl/WebGL/GopherJS. Je fais aussi de la veille technologique Full stack en Go/Vue.js/SemanticUI/Bootstrap/ElectronJS sur divers
+            | applicatifs web.
+        .ui.orange.dividing.header
+          .content
+            i.bar.chart.icon
+            |  Expérience professionelle
+        .ui.raised.segment
+          a.ui.orange.ribbon.label Lead developer du 12/2008 à Aujourd’hui à Eureka Technology
+          .ui.middle.aligned.list
+            .item
+              i.right.triangle.icon
+              .content
+                | En charge de la conception et la mise en oeuvre de nouvelles fonctionnalités au sein de la solution Dispatch et ses projets satellites.
+                .ui.middle.aligned.list
+                  .item
+                    i.right.triangle.icon
+                    .content
+                      | Gestion de temps de service.
+                  .item
+                    i.right.triangle.icon
+                    .content
+                      | Gestion de factures sous-traitant.
+                  .item
+                    i.right.triangle.icon
+                    .content
+                      | Interfaçage pour l'intégration de commandes du système d'information AirFrance vers la solution Dispatch et remontés d'états de commandes en temps réel. (API Soap).
+                  .item
+                    i.right.triangle.icon
+                    .content
+                      | Interfaçage pour l'intégration de commandes du système d'information Unilever vers la solution Dispatch et remontés d'états de commandes en temps réel (Restfull API).
+            .item
+              i.right.triangle.icon
+              .content
+                | En charge de l’intégration continue de la solution Dispatch et ses satellites avec TeamCity.
+                .ui.middle.aligned.list
+                  .item
+                    i.right.triangle.icon
+                    .content
+                      | Automatisation de la compilation des projets. MSBuild/TeamCity.
+                  .item
+                    i.right.triangle.icon
+                    .content
+                      | Automatisation de la vérification de l’intégrité des schémas (Tables/Index/Clefs/Vues/Procédures stockées/Fonctions CLR/Droits) de base de données de développement, test et production.
+                  .item
+                    i.right.triangle.icon
+                    .content
+                      | Automatisation des tests unitaires. TeamCity/MSTest.
+                      br
+                      br
+                  .item
+                    i.right.triangle.icon
+                    .content
+                      | Automatisation du code coverage. TeamCity/dotCover.
+                  .item
+                    i.right.triangle.icon
+                    .content
+                      | Automatisation de la génération de packages de mise à jour incrémentale (Binaire et Base de données) de la solution Dispatch. TeamCity/MSBuild.
+                  .item
+                    i.right.triangle.icon
+                    .content
+                      | Rapport d'anomalie temps réel (Post merge request acceptée) automatisée et intégration d'alerte d'anomalie d'intégration continue avec Slack.
+            .item
+              i.right.triangle.icon
+              .content
+                | En charge du déploiement continue avec TeamCity de projets satellites à la solution Dispatch.
+            .item
+              i.right.triangle.icon
+              .content
+                | Gestion d’équipe de 2 à 4 développeurs lors de la mise en oeuvre de projets dans la solution Dispatch.
+                .ui.middle.aligned.list
+                  .item
+                    i.right.triangle.icon
+                    .content
+                      | Mise en place d'une méthodologie agile (Scrum).
+                  .item
+                    i.right.triangle.icon
+                    .content
+                      | Suivi de l'équipe en tant que ScrumMaster.
+                  .item
+                    i.right.triangle.icon
+                    .content
+                      | Suivi de la mise en oeuvre de projet et de ses tâches à l'aide de Tuleap.
+                  .item
+                    i.right.triangle.icon
+                    .content
+                      | Ecriture de rapport d'activité.
+                  .item
+                    i.right.triangle.icon
+                    .content
+                      | Ecriture de procédures de maintenance Niveau 2 et 3.
+                  .item
+                    i.right.triangle.icon
+                    .content
+                      | Revue et validation de code avant acceptation d'une demande de merge.
+                  .item
+                    i.right.triangle.icon
+                    .content
+                      | Ecriture du cahier développeur.
+                      .ui.middle.aligned.list
+                        .item
+                          i.right.triangle.icon
+                          .content
+                            | Coding style.
+                        .item
+                          i.right.triangle.icon
+                          .content
+                            | Workflow Git et convention de nomage pour la gestion des branches fonctionnelles, correctives et releases.
+                        .item
+                          i.right.triangle.icon
+                          .content
+                            | Ecriture d'un guide des bonnes pratiques de développement dans la solution Dispatch.
+            .item
+              i.right.triangle.icon
+              .content
+                | Gestion de projet.
+                .ui.middle.aligned.list
+                  .item
+                    i.right.triangle.icon
+                    .content
+                      | Participation à l'écriture de cahiers des charges fonctionnels
+                  .item
+                    i.right.triangle.icon
+                    .content
+                      | Ecriture des spécifications techniques.
+                  .item
+                    i.right.triangle.icon
+                    .content
+                      | Ecriture de documentations techniques et fonctionnelles.
+                  .item
+                    i.right.triangle.icon
+                    .content
+                      | Gestion des anomalies à l'aide de Mantis Bug Tracker.
+                  .item
+                    i.right.triangle.icon
+                    .content
+                      | Recettage.
+                  .item
+                    i.right.triangle.icon
+                    .content
+                      | Suivi de tests d'intégration.
+                  .item
+                    i.right.triangle.icon
+                    .content
+                      | Suivi des tests utilisateurs.
+                  .item
+                    i.right.triangle.icon
+                    .content
+                      | Mise en production en clientèle.
+          br
+          a.ui.orange.ribbon.label Analyste/Programmeur du 06/2008 à 12/2008 à Ungi
+          div
+            | En charge du développement et maintenance d’applications Web Perl/Php.
+        .ui.orange.dividing.header
+          .content
+            i.bar.chart.icon
+            |  Formation
+        .ui.raised.segment
+          a.ui.orange.ribbon.label Master Informatique (BAC+5) Epitech
+          div
+            p
+              | Promotion 2009. Lieu Paris, France.
+            p
+              | Langages étudiés: C/UNIX, C++, PHP/MySQL, PSQL/ORACLE SQL, Assembleur x86 gasm/nasm.
+            p
+              | Environnements de travail: BSD, Solaris, Linux, Windows, Alpha.
+            p
+              | Projets réalisés lors du cursus:
+            .ui.middle.aligned.list
+              .item
+                i.right.triangle.icon
+                .content
+                  | Programmation de fonctions de la libc sous UNIX en C (Malloc, Printf, ...).
+              .item
+                i.right.triangle.icon
+                .content
+                  | Programmation de fonctions de la libc sous UNIX en Assembleur x86 (strlen, strchr, memset, memcpy, strcmp, memmove, strncmp, strcasecmp, rindex, read, write, strstr, strcspn).
+              .item
+                i.right.triangle.icon
+                .content
+                  | Programmation de nombreux outils UNIX en C (nm/objdump, ls, cat, select, script, ...).
+              .item
+                i.right.triangle.icon
+                .content
+                  | Programmation d'un client et d'un serveur ftp en C UNIX.
+              .item
+                i.right.triangle.icon
+                .content
+                  | Programmation d'un client et d'un serveur irc en C UNIX.
+              .item
+                i.right.triangle.icon
+                .content
+                  | Programmation d'un client et d'un serveur irc en C UNIX.
+              .item
+                i.right.triangle.icon
+                .content
+                  | Programmation d'une machine virtuelle en C interprétant un langage d'assembleur (COREWAR). Réalisé en groupe (4 personnes).
+              .item
+                i.right.triangle.icon
+                .content
+                  | Programmation d'une application de gestion de projet en PHP. Réalisé en groupe (6 personnes).
+              .item
+                i.right.triangle.icon
+                .content
+                  | Programmation d'un jeu multi-joueurs ou combattent plusieurs clients contrôlés par des intelligences artificielles (Architecture client/serveur) en C (serveur) et C++ (client graphique et IA). Réalisé en groupe (6 personnes).
+              .item
+                i.right.triangle.icon
+                .content
+                  | Transformation d'un langage pédagogique nomé KOOC en C, à l'aide d'un outil nomé Codeworker (composé d'un parseur producteur/consommateur (BNF) et d'un langage de template). Réalisé en groupe (3 personnes).
+              .item
+                i.right.triangle.icon
+                .content
+                  | Programmation d'un serveur HTTP/1.1 modulaire et multi-thread en C++. Réalisé en groupe (6 personnes).
+              .item
+                i.right.triangle.icon
+                .content
+                  | Programmation d'un micro-kernel en Assembleur/C x86
+              .item
+                i.right.triangle.icon
+                .content
+                  | Projet de fin d'étude : Rathaxes. Un compilateur d'un language spécifique (DSL) à la description de drivers. L'objectif étant de décrire un driver pour ensuite le compiler pour plusieurs plateforme Windows/OpenBSD/Linux. Réalisé en groupe (11 personnes)
+          a.ui.orange.ribbon.label BTS Informatique de Gestion - Spécialité développeur d’application
+          div
+            | 2006. Lieu : Lycée Paul Louis Courrier - Tours, France.
+          a.ui.orange.ribbon.label BAC Scientifique - Spécialité Mathématique
+          div
+            | 2003. Lieu : Lycée Charles Péguy, Orléans.
+        .ui.orange.dividing.header
+          .content Compétences techniques
+        .ui.raised.segment
+          a.ui.orange.ribbon.label Langages de programmation
+          table.ui.table
+            tbody
+              tr
+                td C#
+                td 8ans
+                td Maitrisé
+              tr
+                td SQL/T-SQL
+                td 9ans
+                td Maitrisé
+              tr
+                td Go(lang)
+                td 1ans
+                td Intermédiaire
+              tr
+                td Javascript
+                td 2ans
+                td Intermédiaire
+          a.ui.orange.ribbon.label Outils/Environements de développement
+          table.ui.table
+            tbody
+              tr
+                td Visual Studio
+                td 8ans
+                td Maitrisé
+              tr
+                td Git
+                td 3ans
+                td Maitrisé
+              tr
+                td GitLab
+                td 2ans
+                td Maitrisé
+              tr
+                td TeamCity
+                td 2ans
+                td Maitrisé
+              tr
+                td Docker
+                td 1ans
+                td Intermédiaire
